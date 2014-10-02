@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ccs.mobileappsucu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.ccs.mobileappsucu.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.AdmissionActivity"
+            android:label="@string/title_activity_admission" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.AboutucuActivity"
+            android:label="@string/title_activity_aboutucu" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.GraduateActivity"
+            android:label="@string/title_activity_graduate" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.UniversitylifeActivity"
+            android:label="@string/title_activity_universitylife" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.GoalActivity"
+            android:label="@string/title_activity_goal" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.MissionActivity"
+            android:label="@string/title_activity_mission" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.VisionActivity"
+            android:label="@string/title_activity_vision" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.PostGraduateActivity"
+            android:label="@string/title_activity_post_graduate" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.GraduateProgramActivity"
+            android:label="@string/title_activity_graduate_program" >
+        </activity>
+        <activity
+            android:name="edu.ccs.mobileappsucu.DegreeProgramsActivity"
+            android:label="@string/title_activity_degree_programs" >
+        </activity>
+    </application>
+
+</manifest>
